@@ -1,0 +1,23 @@
+table {
+    border: 1px solid blue;
+    text-align: left;
+    display: inline-block;
+    width: 800px;
+}
+
+th {
+    border: 1px solid blue;
+    text-align: left;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid blue;
+    text-align: left;
+    padding: 5px;
+
+}
+
+tr:hover {
+    background-color: lightblue;
+}

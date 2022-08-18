@@ -1,0 +1,172 @@
+ 
+html {
+   background-color: black;
+   display: block;
+}
+
+body {
+   width: 1000px;
+   margin: auto;
+}
+
+/*Header Styles*/
+
+a {
+   color: white;
+   text-decoration: none;
+   font-weight: 600;
+   margin: 10px;
+}
+
+nav {
+   background-color: black;
+   width: 100%;
+   margin: 0;
+   display: flex;
+   border-radius: 10px;
+   justify-content: space-around;
+}
+
+li nav {
+   text-decoration: none;
+   list-style-type: none;
+   justify-content: space-around;
+
+}
+
+ul {
+   justify-content: space-around;
+}
+
+nav h1 {
+   float: left;
+   color: white;
+   margin-left: 10px;
+   font-size: 50px;
+   margin-top: 12px;
+   margin-bottom: 12px;
+ }
+
+ .navigation-items {
+   display: flex;
+   list-style-type: none;
+   padding: 0;
+   align-items: center;
+   margin: 0;
+   margin-left: auto;
+ }
+
+
+ /*about and work history styles*/
+
+ .main-grid {
+   display: grid;
+   background-color: black;
+   border-radius: 5px;
+   max-width: 100%;
+   position: relative;
+   margin: 10px;
+   margin-bottom: 0;
+   grid-template-areas: "about about" "me profile" "work work" "swimmingly tutor";
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: .5fr 2fr .5fr 2fr;
+ }
+
+ .about {
+   grid-area: about;
+   color: white;
+   margin-left: 10px;
+   margin-bottom: 0;
+   font-size: 25px;
+   border-bottom: 2px solid white;
+ }
+
+ .description {
+   grid-area: me;
+   color: white;
+   font-size: 18px;
+   margin-left: 10px;
+ }
+
+ .profile {
+   margin-top: 10px;
+   grid-area: profile;
+   width: 300px;
+   margin-left: 50px;
+   border-radius: 10%;
+   border: 10px solid white;
+ }
+
+ .work {
+   grid-area: work;
+   color: white;
+   margin-left: 10px;
+   margin-bottom: 0;
+   font-size: 25px;
+   border-bottom: 2px solid white;
+ }
+
+ .swimmingly {
+   grid-area: swimmingly;
+   color: white;
+   font-size: 18px;
+   margin-left: 10px;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .tutor {
+   grid-area: tutor;
+   color: white;
+   font-size: 18px;
+   margin-left: 10px;
+ }
+
+ .date {
+   font-size: 9px;
+   color: lightgray;
+   margin-left: 15px;
+ }
+
+ #du {
+   margin: auto;
+   display: flex;
+ }
+
+ #swimmingly {
+   margin: auto;
+   display: flex;
+ }
+
+
+ /**/
+
+ .main-flex {
+   display: block;
+   background-color: black;
+   color: white;
+ }
+
+ h2.main-flex {
+   color: white;
+   margin-bottom: 50px;
+ }
+
+ #socket {
+   display: block;
+ }
+
+ #painter {
+   display: block;
+ }
+
+ #fotomatic {
+   display: block;
+ }
+
+ #camera {
+   display: block;
+ }
+
+
+

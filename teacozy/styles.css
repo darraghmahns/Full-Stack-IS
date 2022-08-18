@@ -1,0 +1,162 @@
+
+
+html, body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    align-items: center;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+ul {
+    text-align: right;
+    display: inline-flex;
+    
+}
+
+.container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*footer styles*/
+
+.footer {
+    height: 200px;
+}
+
+.copyright{
+    text-align: left;
+}
+
+/*Location Styles*/
+
+.location {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*vdhrjn*_ga*MTMzODEyOTE2Ny4xNjM0NTgxMDc5*_ga_3LRZM6TM9L*MTY1NzQwODgzMy41Ny4xLjE2NTc0MDg4OTguNjA.');
+    width: 1200px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.loc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locbox {
+    background: black;
+    width: 300px;
+    height: auto;
+    margin:0px 20px;
+}
+
+.text {
+    margin-bottom: 15px;
+}
+
+/*Featured Tea Styles*/
+
+.featuredtea {
+    margin: 20px;
+    width: 1000px;
+
+}
+
+ #teaimg{
+    width: 300px;
+    height:200px;
+    margin-bottom: 10px;
+}
+
+.box {
+    height: auto;
+    width:auto;
+    margin: 12px;
+}
+
+#wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/*Mission styles*/
+
+.background {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*owto1y*_ga*MTMzODEyOTE2Ny4xNjM0NTgxMDc5*_ga_3LRZM6TM9L*MTY1NzQwMzc4MS41Ni4xLjE2NTc0MDQ3MTYuNTA.");
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission {
+    color: seashell;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 1200px;
+}
+
+
+
+/*Header styles*/
+
+#logo {
+    align-content: left;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.horizspacer {
+    width: 57%;
+}
+
+.nav {
+    align-content: right;
+}
+
+.header {
+    padding: 30px 0px 40px;
+    margin: auto;
+    background: black;
+    display: flex;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+}
+
+.header li {
+    list-style: none;
+    display: inlin-flex;
+    align-content: right;
+    justify-content: space-between;
+}
+
+.header li a {
+    color: white;
+    text-decoration: underline;
+    border: 0px;
+    padding: 14px 16px;
+    
+}
+
+.header li a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
